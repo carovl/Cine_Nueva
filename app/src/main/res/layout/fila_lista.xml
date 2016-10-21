@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:padding="5dp" />
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<!--Titulo-->
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:padding="2dp"
+            android:textColor="#fc0004"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+<!--Formato-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Formato: "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#cfcbcb"/>
+
+            <TextView
+                android:id="@+id/formato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#cfcbcb"/>
+
+
+        </LinearLayout>
+<!--Horario-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Horario: "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#cfcbcb"/>
+
+            <TextView
+                android:id="@+id/horario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#cfcbcb"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
